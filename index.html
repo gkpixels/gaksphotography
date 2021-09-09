@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+
+        <link rel="stylesheet" href="public.css"> 
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sign In</title>
+        
+    </head>
+    <body class="sign">
+        <h1 style="font-size: 30px; font-weight: bolder;">WELCOME TO GAKS PHOTOGRAPHY</h1><br>
+        <h1>Sign-In</h1>
+        <form action="vindex.html" method="POST">
+           
+            <label for="username">Email/Username</label><br>
+            <input type="email" placeholder="Email" id="username" name="username" required><br>
+            <label for="password">Password</label><br>
+            <input type="password" maxlength="40" minlength="8" placeholder="Password" id="password" name="password"   required><br>
+            <label for="password_confirm">Confirm Password</label><br>
+            <input type="password" placeholder="Password" id="password_confirm" name="password_confirm"  required/><br><br>
+            Code:<br> <input name="code" type="text" placeholder="*Not required"/><br><br>
+        
+            <input class="dec" name="submit" type="submit" value="Submit"/>
+      
+          <script lang="javascript" type="text/javascript">
+          var password = document.getElementById("password")
+          , password_confirm = document.getElementById("password_confirm");
+
+          function validatePassword() {
+              if(password.value != password_confirm.value) {
+                  password_confirm.setCustomValidity("passwords Dont Match");
+
+              }
+              else {
+                  password_confirm.setCustomValidity('')
+              }
+          }
+          password.onchange = validatePassword;
+          password_confirm.onkeyup = validatePassword
+         
+
+    
+        </script>             
+        </form>
+
+        <div>
+            <footer>
+                <marquee direction="left" scrollamount="10">
+                    <p>By clicking submit you agree to our Terms of use and to receive Gaks Photography emails and updates</p>
+                    </marquee>
+                    <h6 class="last">Copyright 2020-2021 by Gaks Photography Kenya. All rights reserved<br>gaksphotography.xyz is powered by GaksPhotographyTeam</h6>
+            </footer>
+        </div>
+        
+    </body>
+    </html>
+    
+
+    
+   

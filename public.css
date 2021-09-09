@@ -1,0 +1,651 @@
+@media screen and (max-width: 900px)
+{
+
+  
+.divisione {
+  background-image: url("./images/me5.jpg");
+  width: 100%;
+  height: 300px;
+  margin: auto;
+  
+}
+.extreme {
+  
+  color: rgb(255, 255, 255);
+  font-size: 50px;
+  font-weight: bold;
+  padding-top: auto;
+  padding: auto;
+  text-shadow:  2px 4px black;
+  text-decoration: solid;
+}
+.title {
+  color: rgb(214, 0, 0);
+  font-size: 30px;
+  font-style: oblique;
+  font-weight: bold;
+  
+}
+@supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) 
+{
+  .title{
+      -webkit-backdrop-filter: blur(10px);
+      backdrop-filter: blur(10px);
+      background-color: rgba(255, 255, 255, 0.5);
+      border-radius: 5px;
+      line-height: 1.5;
+      max-width: 50%;
+      padding: 1rem 2rem;
+  }
+}
+.dew {
+  color: rgb(0, 255, 208);
+  font-size: 15px;
+  padding: 10px;
+  border-radius: 111px;
+  font-weight: bold;
+  border-color: rgb(3, 3, 175);
+  text-shadow: 2px 2px black;
+
+}
+.btn {
+  
+  text-decoration: none;
+  cursor: pointer;
+  
+
+}
+.container {
+  margin: 0;
+  position: relative;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  text-align: center;
+}
+.paragraph {
+  font-family: 'Courier New', Courier, monospace;
+  color: rgb(42, 196, 42);
+  font-size: 34px;
+  text-align: center;
+  font-weight: bolder;
+  margin: auto;
+}
+
+
+.active, .collapsible:hover {
+  background-color: #ccc;
+}
+
+.content {
+  padding: 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+
+
+.imgs {
+  margin: auto;
+  align-self: center;
+  align-items: center;
+  text-align: center;
+}
+
+.paragraph2 {
+  font-size: 17px;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #f1f1f1;
+}
+
+.phot {
+  text-align: center;
+  background-color: rgb(11, 11, 138);
+  height: 200px;
+}
+
+
+.logos {
+  padding: 0%;
+  position: relative;
+}
+.divisionea {
+  background-color: rgb(0, 0, 92);
+}
+.portfolio {
+  
+  background-color: rgb(0, 0, 148);
+}
+.were {
+  color: white;
+  font-weight: 50px;
+  text-align: center;
+  font-size: 22px;
+  text-shadow: 2px 4px black;
+  text-decoration: wavy;
+}
+.wed {
+  font-size: 10px;
+  size: 111px;
+  text-decoration: none;
+  cursor: pointer;
+}
+.ft {
+  color: white;
+  font-weight: 66px;
+  font-size: 22px;
+}
+.pop {
+  font-size:16px; 
+  color: white;
+  background-color: black;
+  background-size: cover;
+  padding-left: 10px;
+}
+.sad {
+  margin: 10px;
+  position:relative
+}
+textarea {
+  font-size: 40pt;
+}
+.last {
+  text-align: center;
+  color: rgb(118, 119, 115);
+}
+.tyi {
+  
+  width: 100%;
+  height: 30px;
+  object-position: top;
+  top: 0%;
+}
+.less {
+  height: 30%;
+  width: 30%;
+  margin: auto;
+  padding: auto;
+  background-color: aqua;
+  align-self: start;
+  
+}
+.topnav {
+  background-color: black;
+  overflow: hidden;
+}
+.topnav a {
+   float: left;
+   color: #f2f2f2;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+   font-size: 17px;
+}
+.topnav a:hover {
+background-color: #ddd;
+color: black;
+}
+.topnav a.active {
+background-color: #04AA6D;
+color: white;
+}  
+.containeeer {
+display: grid;
+grid-template-columns: 1fr;
+}
+.nav-wrapper {
+display: flex;
+justify-content: space-between;
+padding: 38px;
+}
+.left-side {
+display: flex;
+}
+.nav-wrapper > .left-side > div {
+margin-right: 10px;
+text-transform: uppercase;
+font-size: 0.9rem;
+}
+
+.nav-link-wrapper {
+height: 22px;
+border-bottom: 1px solid transparent;
+transition: border-bottom 0.5s;
+}
+
+.nav-link-wrapper a {
+color: #8a8a8a;
+text-decoration: none;
+transition: color 0.5s;
+}
+
+.nav-link-wrapper:hover {
+border-bottom: 1px solid black;
+}
+
+.nav-link-wrapper a:hover {
+color: black;
+}
+.portfolio-items-wrapper {
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+}
+
+.portfolio-item-wrapper {
+position: relative;
+}
+
+.portfolio-img-background {
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+height: 350px;
+width: 100%;
+}
+
+.img-text-wrapper {
+position: absolute;
+top: 0;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+height: 100%;
+text-align: center;
+padding-left: 100px;
+padding-right: 100px;
+}
+
+.img-text-wrapper .subtitle {
+transition: 1s;
+color: transparent;
+}
+
+.image-blur {
+transition: 1s;
+filter: brightness(10%);
+}
+
+.img-text-wrapper:hover .subtitle {
+color: lightseagreen;
+font-weight: 600;
+}
+
+.logo-wrapper img {
+width: 50%;
+margin-bottom: 20px;
+}
+
+.two-column-wrapper {
+display: grid;
+grid-template-columns: 1fr 1fr;
+}
+
+.profile-image-wrapper img {
+width: 100%;
+}
+
+.profile-content-wrapper {
+padding: 30px;
+}
+
+.profile-content-wrapper h1 {
+color: blue;
+}
+
+.sign {
+  text-align: center;
+  align-items: center;
+  align-content: center;
+  align-self: center;
+  padding: 50px;
+  background-image: url("./images/ty.jpg");
+  background-repeat: no-repeat;
+  background-size:100%;
+  text-decoration: none;
+  color: #f2f2f2;
+}
+.dec {
+  width: 110px;
+   height: 40px; 
+   font-size: 20px;
+    border-radius: 30px;
+     text-decoration: none;
+     background-color: white;
+     font-size: 20px;
+     font-weight: bold;
+     color: rgb(0, 0, 0);
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+}
+
+
+@media screen and (min-width: 901px) 
+ {
+  
+
+    .divisione {
+        background-image: url("./images/me5.jpg");
+        height: 822px;
+        width: 1311px;
+        margin: auto;
+    }
+    .extreme {
+        
+        color: rgb(255, 255, 255);
+        font-size: 100px;
+        font-weight: bold;
+        padding-top: auto;
+        padding: 111x;
+        text-shadow:  1px 2px black;
+        text-decoration: solid;
+    }
+    .title {
+        color: rgb(214, 0, 0);
+        font-size: 88px;
+        font-style: oblique;
+        font-weight: bold;
+        
+    }
+    @supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) 
+    {
+        .title{
+            -webkit-backdrop-filter: blur(10px);
+            backdrop-filter: blur(10px);
+            background-color: rgba(255, 255, 255, 0.5);
+            border-radius: 5px;
+            line-height: 1.5;
+            max-width: 50%;
+            padding: 1rem 2rem;
+        }
+    }
+    .dew {
+        color: rgb(0, 255, 208);
+        size: 200px;
+        font-size: 22px;
+        padding: 10px;
+        border-radius: 111px;
+        font-weight: bolder;
+        border-color: rgb(3, 3, 175);
+        text-shadow: 1px 4px black;
+    
+    }
+    .btn {
+        
+        text-decoration: none;
+        cursor: pointer;
+        
+    
+    }
+    .container {
+        margin: 0;
+        position: relative;
+        top: 50%;
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+        text-align: center;
+    }
+    .paragraph {
+        font-family: 'Courier New', Courier, monospace;
+        color: rgb(42, 196, 42);
+        font-size: 34px;
+        text-align: center;
+        font-weight: 44px;
+        font-weight: bolder;
+        margin: auto;
+    }
+    
+    
+    .active, .collapsible:hover {
+        background-color: #ccc;
+    }
+    
+    .content {
+        padding: 18px;
+        display: none;
+        overflow: hidden;
+        background-color: #f1f1f1;
+    }
+    
+    
+    .imgs {
+        margin: auto;
+        align-items: center;
+        align-self: center;
+        text-align: center;
+    }
+    
+    .paragraph2 {
+        font-size: 17px;
+        text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #f1f1f1;
+    }
+  
+    .phot {
+        text-align: center;
+        background-color: rgb(11, 11, 138);
+        height: 200px;
+    }
+
+    
+    .logos {
+        padding: 0%;
+        position: relative;
+    }
+    .divisionea {
+        background-color: rgb(0, 0, 92);
+    }
+    .portfolio {
+        
+        background-color: rgb(0, 0, 148);
+    }
+    .were {
+        color: white;
+        font-weight: 67px;
+        text-align: center;
+        font-size: 22px;
+        text-shadow: 5px 10px black;
+        text-decoration: wavy;
+    }
+    .wed {
+        font-size: 10px;
+        size: 111px;
+        text-decoration: none;
+        cursor: pointer;
+    }
+    .ft {
+        color: white;
+        font-weight: 66px;
+        font-size: 22px;
+    }
+    .pop {
+        font-size:20px; 
+        color: white;
+        background-color: black;
+        padding-left: 20px;
+        background-size: cover;
+    }
+    .sad {
+        margin: 10px;
+        position:relative
+    }
+    textarea {
+        font-size: 50pt;
+    }
+    .last {
+        text-align: center;
+        color: rgb(118, 119, 115);
+    }
+    .tyi {
+        
+        width: 100%;
+        height: 50px;
+        object-position: top;
+        top: 0%;
+    }
+    .less {
+        height: fit-content;
+        width: fit-content;
+        margin: auto;
+        padding: auto;
+        background-color: aqua;
+        align-self: start;
+    }
+    .topnav {
+      background-color: black;
+      overflow: hidden;
+    }
+    .topnav a {
+       float: left;
+       color: #f2f2f2;
+       text-align: center;
+       padding: 14px 16px;
+       text-decoration: none;
+       font-size: 17px;
+    }
+    .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+    }
+    .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+    }  
+    .containeeer {
+    display: grid;
+    grid-template-columns: 1fr;
+    }
+    .nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 38px;
+    }
+    .left-side {
+    display: flex;
+    }
+    .nav-wrapper > .left-side > div {
+    margin-right: 10px;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    }
+    
+    .nav-link-wrapper {
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+    }
+    
+    .nav-link-wrapper a {
+    color: #8a8a8a;
+    text-decoration: none;
+    transition: color 0.5s;
+    }
+    
+    .nav-link-wrapper:hover {
+    border-bottom: 1px solid black;
+    }
+    
+    .nav-link-wrapper a:hover {
+    color: black;
+    }
+    .portfolio-items-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    }
+    
+    .portfolio-item-wrapper {
+    position: relative;
+    }
+    
+    .portfolio-img-background {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 350px;
+    width: 100%;
+    }
+    
+    .img-text-wrapper {
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    }
+    
+    .img-text-wrapper .subtitle {
+    transition: 1s;
+    color: transparent;
+    }
+    
+    .image-blur {
+    transition: 1s;
+    filter: brightness(10%);
+    }
+    
+    .img-text-wrapper:hover .subtitle {
+    color: lightseagreen;
+    font-weight: 600;
+    }
+    
+    .logo-wrapper img {
+    width: 50%;
+    margin-bottom: 20px;
+    }
+    
+    .two-column-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    }
+    
+    .profile-image-wrapper img {
+    width: 100%;
+    }
+    
+    .profile-content-wrapper {
+    padding: 30px;
+    }
+    
+    .profile-content-wrapper h1 {
+    color: blue;
+    }
+
+    .sign {
+      text-align: center;
+      align-items: center;
+      align-content: center;
+      align-self: center;
+      padding: 50px;
+      background-image: url("./images/me6.jpg");
+      background-repeat: no-repeat;
+      background-size:100%;
+      text-decoration: none;
+      color: white;
+    }
+    .dec {
+      width: 300px;
+       height: 50px; 
+       font-size: 35px;
+        border-radius: 30px;
+         text-decoration: none;
+         background-color: white;
+         font-size: 20px;
+         font-weight: bold;
+         color: rgb(0, 255, 21);
+         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    
+ }
+
+
+
+
+ 
